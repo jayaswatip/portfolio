@@ -257,13 +257,102 @@ section { padding: 6rem 1.5rem; }
     .about-eyebrow-wrap { text-align: center; }
 }
 @media (max-width: 600px) {
-    .section-title { font-size: 2.2rem; }
-    .hero-title { font-size: 2.6rem; }
-    .about-stats { grid-template-columns: 1fr; gap: 0; }
-    .nav-links { gap: 1rem; }
-    .nav-link { font-size: .78rem; }
-    .cgpa-number { font-size: 2.5rem; }
+    /* Navigation */
+    .nav-links { gap: 0.5rem; }
+    .nav-link { font-size: .75rem; padding: 0.4rem 0.8rem; }
+    
+    /* Hero Section */
+    .hero-title { font-size: 2.2rem; line-height: 1.2; }
+    .hero-subtitle { font-size: 1rem; }
+    .hero-description { font-size: 0.95rem; }
+    .hero-buttons { flex-direction: column; gap: 0.8rem; width: 100%; }
+    .btn { width: 100%; text-align: center; }
+    
+    /* Section Headers */
+    .section-title { font-size: 1.8rem; }
+    .section-subtitle { font-size: 0.9rem; }
+    
+    /* About Section */
+    .about-stats { grid-template-columns: 1fr; gap: 1rem; }
+    .stat-card { padding: 1rem; }
+    .stat-number { font-size: 1.8rem; }
+    .stat-label { font-size: 0.85rem; }
+    .about-description { font-size: 0.95rem; }
+    .cgpa-number { font-size: 2rem; }
+    .cgpa-label { font-size: 0.85rem; }
+    
+    /* Projects Section */
+    .projects-grid { grid-template-columns: 1fr; }
+    .project-card { padding: 1.5rem; }
+    .project-title { font-size: 1.1rem; }
+    .project-description { font-size: 0.9rem; }
+    .project-tech { flex-wrap: wrap; gap: 0.4rem; }
+    .tech-tag { font-size: 0.75rem; padding: 0.3rem 0.6rem; }
+    
+    /* Achievements Section */
+    .achievements-grid { grid-template-columns: 1fr; }
+    .achievement-card { padding: 1.2rem; }
+    .achievement-title { font-size: 1rem; }
+    .achievement-location { font-size: 0.85rem; }
+    .achievement-description { font-size: 0.85rem; }
+    .achievement-cert-btn { font-size: 0.8rem; padding: 0.4rem 0.8rem; }
+    
+    /* Certifications Section */
     .certs-grid { grid-template-columns: 1fr; }
+    .cert-card { padding: 1.2rem; }
+    
+    /* Container */
+    .container { padding: 0 1rem; }
+    
+    /* Modal */
+    .cert-modal-overlay { padding: 1rem; }
+    .cert-modal { border-radius: 0.8rem; }
+    .cert-modal-img { max-height: 300px; }
+    .cert-modal-footer { flex-direction: column; gap: 0.5rem; }
+    .cert-modal-verify { width: 100%; justify-content: center; }
+}
+@media (max-width: 480px) {
+    /* Extra small phones */
+    .hero-title { font-size: 1.9rem; }
+    .section-title { font-size: 1.6rem; }
+    .nav { padding: 0.8rem 1rem; }
+    .nav-logo { font-size: 1.1rem; }
+    .hero-image { width: 200px; height: 200px; }
+    .achievement-card, .project-card, .cert-card { padding: 1rem; }
+    .container { padding: 0 0.8rem; }
+    
+    /* Touch-friendly improvements */
+    .nav-link { min-height: 44px; display: flex; align-items: center; }
+    .btn { min-height: 44px; display: flex; align-items: center; justify-content: center; }
+    .achievement-cert-btn { min-height: 44px; }
+    
+    /* Better spacing for mobile */
+    .section { padding: 3rem 0; }
+    .hero { padding: 4rem 0; }
+    
+    /* Mobile typography */
+    .achievement-description, .project-description, .about-description {
+        line-height: 1.6;
+    }
+    
+    /* Stack elements better on mobile */
+    .achievement-header {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
+    
+    .project-header {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
+    
+    .cert-header {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
 }/* Achievement Certificate Button */
 .achievement-cert-btn {
     margin-top: 1rem;
