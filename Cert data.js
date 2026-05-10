@@ -13,6 +13,56 @@ var CERT_DATA = {
     name: 'Jayaswati P — Oracle University',
     dates: 'Issued: May 16, 2025',
     verify: '#'
+  },
+  // Achievement Certificates
+  byts_hackathon: {
+    title: 'BYTS India Hackathon 2.0 - Winner',
+    img: '', // Add your certificate image base64 here
+    name: 'Jayaswati Periyasamy',
+    dates: 'Awarded: 2025',
+    verify: '#'
+  },
+  ai_agriculture: {
+    title: '1st Place - Paper Presentation (AI in Agriculture)',
+    img: '', // Add your certificate image base64 here
+    name: 'Jayaswati Periyasamy',
+    dates: 'Awarded: 2024',
+    verify: '#'
+  },
+  markus_coding: {
+    title: '1st Place - MarkUs Coding Competition',
+    img: '', // Add your certificate image base64 here
+    name: 'Jayaswati Periyasamy',
+    dates: 'Awarded: 2024',
+    verify: '#'
+  },
+  mindwatch_signin: {
+    title: '1st Place - Paper Presentation (MindWatch)',
+    img: '', // Add your certificate image base64 here
+    name: 'Jayaswati Periyasamy',
+    dates: 'Awarded: Signin 2k25',
+    verify: '#'
+  },
+  medibot_cit: {
+    title: '3rd Place - Hackathon (MediBot)',
+    img: '', // Add your certificate image base64 here
+    name: 'Jayaswati Periyasamy',
+    dates: 'Awarded: Coimbatore Institute of Technology',
+    verify: '#'
+  },
+  medibot_kpr: {
+    title: 'Top 8 Finalist - KPR Hackathon (MediBot)',
+    img: '', // Add your certificate image base64 here
+    name: 'Jayaswati Periyasamy',
+    dates: 'Awarded: KPR Institute of Technology',
+    verify: '#'
+  },
+  cattle_detection: {
+    title: '3rd Place - Data Science Hackathon (Cattle Breed Detection)',
+    img: '', // Add your certificate image base64 here
+    name: 'Jayaswati Periyasamy',
+    dates: 'Awarded: Kongu Engineering College',
+    verify: '#'
   }
 };
 

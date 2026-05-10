@@ -264,4 +264,26 @@ section { padding: 6rem 1.5rem; }
     .nav-link { font-size: .78rem; }
     .cgpa-number { font-size: 2.5rem; }
     .certs-grid { grid-template-columns: 1fr; }
+}/* Achievement Certificate Button */
+.achievement-cert-btn {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: rgba(26,122,110,.1);
+    border: 1px solid rgba(26,122,110,.3);
+    border-radius: 0.5rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--teal);
+    text-align: center;
+    transition: all .25s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.achievement-card:hover .achievement-cert-btn {
+    background: var(--teal);
+    color: white;
+    transform: translateY(-2px);
 }
