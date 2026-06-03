@@ -53,17 +53,6 @@ document.addEventListener('DOMContentLoaded', function () {
         io.observe(el);
     });
 
-    // ─── Block placeholder Demo buttons ─────────────
-    document.addEventListener('click', function (e) {
-        const btn = e.target.closest('.btn');
-        if (!btn) return;
-        if (btn.tagName.toLowerCase() === 'a') {
-            const h = btn.getAttribute('href') || '';
-            if (h.startsWith('http') || h.startsWith('mailto:')) return;
-        }
-        if (btn.textContent.trim().includes('Demo')) e.preventDefault();
-    });
-
     updateActiveNavLink();
 });
 
